@@ -1,0 +1,26 @@
+# 隐私 / 本机配置（绝不提交）
+config.json
+usage.json
+logs/
+export/
+test-export.pdf
+
+# 运行与测试产物
+temp/
+__pycache__/
+*.py[cod]
+*.log
+*.db
+*.db-journal
+_syntax_check.js
+chrome-profile-*/
+*.pdf
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 本地测试脚本
+_test*.bat

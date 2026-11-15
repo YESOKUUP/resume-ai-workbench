@@ -1,0 +1,29 @@
+{
+  "llm": {
+    "provider": "deepseek",
+    "base_url": "https://api.deepseek.com/v1",
+    "model": "deepseek-chat",
+    "api_key": "",
+    "temperature": 0.2,
+    "ai_level": "heavy",
+    "rewrite_style": "standard",
+    "pure_rule": false,
+    "timeout": 120,
+    "price_in": 0,
+    "price_out": 0,
+    "currency": "¥"
+  },
+  "privacy": {
+    "strip_phone": false,
+    "strip_email": false
+  },
+  "prefs": {
+    "infer_outputs": true,
+    "name_mechanism": true,
+    "upgrade_verb": false
+  },
+  "blacklist": [],
+  "budget": {
+    "session_warn_tokens": 200000
+  }
+}
